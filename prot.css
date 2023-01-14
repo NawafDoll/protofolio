@@ -271,7 +271,7 @@ visibility: visible;
 }
 @media (max-width:887px){
     .social{
-        width: 66px;
+        width: 60px;
     }
     .content::after{
        right: 50%;
