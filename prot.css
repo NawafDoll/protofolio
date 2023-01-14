@@ -560,10 +560,14 @@ visibility: visible;
 #works .head h2{
     position: relative;
 }
+#works{
+    background-color: rgb(214 237 233);
+    padding-top: 13px;
+}
 #works h2::after{
     content: '';
     padding: 8px;
-    background-color: rgb(214 241 236);
+    background-color: rgb(204, 235, 229);
     position: absolute;
     top: -13px;
     left: 10px;
