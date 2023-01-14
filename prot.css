@@ -341,11 +341,6 @@ visibility: visible;
     box-shadow: 0px 0px 5px white;
 }
 
-#about{
-    background-color: #E6DDC4;
-    padding-top: 10px;
-}
-
 .head h2{
     width: fit-content;
     padding: 10px;
@@ -357,20 +352,20 @@ visibility: visible;
     z-index: 1;
 }
 
-.head h2::after{
+#about .head h2::after{
     content: '';
     padding: 8px;
-    background-color: #E6DDC4;
+    background-color: rgb(202 200 194);
     position: absolute;
     top: -11px;
     left: 10px;
     border-radius: 47px;
 }
 
-.head h2::before{
+#about .head h2::before{
     content: '';
     padding: 8px;
-    background-color: #E6DDC4;
+    background-color: rgb(202 200 194);
     position: absolute;
     bottom: -13px;
     right: 10px;
@@ -389,7 +384,7 @@ visibility: visible;
     color: wheat;
 }
 
-.head h2:hover::after{
+ .head h2:hover::after{
     animation-name: after;
     animation-duration: 0.1s;
     animation-delay: 0.1s;
@@ -409,7 +404,7 @@ visibility: visible;
     
 }
 
-.head h2:hover::before{
+ .head h2:hover::before{
     animation-name: before;
     animation-duration: 0.1s;
     animation-delay: 0.1s;
@@ -449,7 +444,10 @@ visibility: visible;
     }
 }
 
-
+#about{
+    background-color: rgb(202 200 194);
+    padding-top: 10px;
+}
 
 #about .head p{
     width: 60%;
@@ -559,17 +557,29 @@ visibility: visible;
     justify-content: center;
     margin-bottom: 5px;
 }
+#works .head h2{
+    position: relative;
+}
+#works h2::after{
+    content: '';
+    padding: 8px;
+    background-color: rgb(214 241 236);
+    position: absolute;
+    top: -13px;
+    left: 10px;
+    border-radius: 47px;
+}
 
-#works .head h2::before{
+#works h2::before{
     content: '';
     padding: 8px;
     background-color:  rgb(214 241 236);
-    /* background:  linear-gradient(45deg,white,#b8b8e0); */
     position: absolute;
     bottom: -13px;
     right: 10px;
     border-radius: 47px;
 }
+
 
 /* .problem{
     display: flex;
