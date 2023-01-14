@@ -271,11 +271,22 @@ visibility: visible;
 }
 @media (max-width:887px){
     .social{
-        width: 60px;
+        width: 52px;
     }
     .content::after{
        right: 50%;
        bottom: 10%;
+    }
+}
+
+@media (max-width:500px){
+    .col{
+        width: 300px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .col h2{
+        font-size: 40px;
     }
 }
 .social i{
