@@ -271,11 +271,14 @@ visibility: visible;
 }
 @media (max-width:887px){
     .social{
-        width: 52px;
+        width: 38px;
     }
     .content::after{
        right: 50%;
        bottom: 10%;
+    }
+    .social a i{
+        font-size: 20px;
     }
 }
 
