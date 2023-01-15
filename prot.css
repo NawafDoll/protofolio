@@ -5,6 +5,7 @@
 }
 body{
     /* background: linear-gradient(45deg,white,#b8b8e0); */
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header{
@@ -17,6 +18,7 @@ body{
 }
 .header h1{
     margin-left: 15px;
+    font-family: 'Lobster', cursive;
 }
 .header nav ul{
     display: flex;
@@ -294,7 +296,7 @@ visibility: visible;
     }
 }
 .social i{
-    font-size: xx-large;
+    font-size: xxx-large;
     color: aliceblue;
     text-shadow: 0px 0px 16px darkblue;
 }
@@ -610,18 +612,18 @@ visibility: visible;
     text-decoration: none;
     color: cadetblue;
     font-size: xx-large;
-}
+} */
 
 footer{
-    background-color: black;
+    border-top:2px dotted #222251;
+    /* background-color: black; */
     display: flex;
     height: 90px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 footer p{
     text-align: center;
-    background-color: black;
     text-shadow: 0px 1px 2px wheat;
     margin: 10px;
-} */
+}
