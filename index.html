@@ -10,8 +10,10 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Lobster&family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Nawaf</title>
 </head>
 <body>
@@ -36,12 +38,9 @@
             </div>
             <div class="menu" >
                 <h2><a href="#">Home</a></h2>
-                <hr style="width: 100%;">
                 <h2><a href="#about">About Me</a></h2>
-                <hr style="width: 100%;">
                 <h2><a href="#works">My Works</a></h2>
-                <hr style="width: 100%;">
-                <h2><a href="#contact">Contact Me</a></h2>
+                <h2 class="contact"><a href="#contact">Contact Me</a></h2>
             </div>
         </div>
         </div>
@@ -105,6 +104,19 @@
         <p>I graduated from the University of Jeddah in computer science and my fields of web development. I worked in the Senior Leaders Trading Company. I graduated from Tuwaiq JavaScript Camp, and I always strive to develop myself.</p>
     </div>
 </div>
+
+<div  id="contact">
+    
+    <span class="x"><i class="fa fa-close"></i></span>
+   
+    <form action="https://formsubmit.co/nawaftalaat@hotmail.com" method="POST">
+        <h3>Contact Me</h3>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+    </div>
 
     <div  id="works">
         <div class="head">
@@ -172,16 +184,16 @@
         </div>   
     </div>
     </div>
+    </div>
+    </div>
     <!-- <div class="problem">
     <h2>Problem Solving: <a href="https://profile.satr.codes/nawaftalat/main">coderhub</a></h2>
 </div> -->
-<footer id="contact">
-    <form action="https://formsubmit.co/nawaftalaat@hotmail.com" method="POST">
-        <input type="text" name="name" required>
-        <input type="email" name="email" required>
-        <button type="submit">Send</button>
-   </form>
+
+
+<footer >
 </footer>
+<script src="./prot.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
