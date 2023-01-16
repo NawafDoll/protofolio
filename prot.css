@@ -59,7 +59,10 @@ body{
     transform: translate(2px,0);
     
 }
-
+.lines{
+    margin: auto;
+    /* height: 50px; */
+}
 @keyframes head{
 0%{
 
@@ -672,6 +675,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-content: center;
     height: 300px;
     align-items: center;
     margin: auto;
@@ -707,10 +711,22 @@ textarea{
     text-align: start;
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     #contact{
-        transform: scale(3.3);
-        left: 40%;
+        transform: scale(0.9);
+        left: 2%;
+        
     }
+    /* .x{
+        position: absolute;
+        text-align: center;
+        top: -5px;
+        left: -4px;
+        background-color: red;
+        color: aliceblue;
+        border-radius: 50%;
+        width: 20px;
+        cursor: pointer;
+    } */
     
 }
