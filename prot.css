@@ -102,25 +102,31 @@ body{
     z-index: 50;
 }
 
+.add{
+    border-top: 1px solid white;
+    margin-top: 7px;
+    width: 30px;
+    z-index: 50;
+}
 .lines{
     position: relative;
     transition-delay: 0.5s;
 }
 
-#hedden:hover .lines{
+/* #hedden:hover .lines{
 margin-top: 41px;
-}
+} */
 
-#hedden:hover .lines .line{
-   animation-name: lines;
-   animation-duration: 1s;
+/* #hedden:hover .lines .line{ */
+   /* animation-name: lines; */
+   /* animation-duration: 1s;
    animation-delay: 0.2s;
    animation-fill-mode: forwards;
    animation-timing-function: ease-in-out;
    width: 200px;
    z-index: 40;
    position: relative;
-}
+} */
 
 @keyframes lines {
     0%{
@@ -205,13 +211,13 @@ margin-top: 41px;
 }
 
 
-.menu:hover {
+/* .menu:hover {
  visibility: visible;
-}
+} */
 
-#hedden:hover .menu{
+/* #hedden:hover .menu{
 visibility: visible;
-}
+} */
 
 .left{
     background-color: black;
