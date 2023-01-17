@@ -20,7 +20,7 @@ let lines = document.getElementsByClassName('lines')[0]
 let menu = document.getElementsByClassName('menu')[0]
 
 hedden.addEventListener('click',function(){
-  lines.style.marginTop = '35px'  
+  lines.style.marginTop = '32px'  
 })
 
 
