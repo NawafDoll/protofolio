@@ -16,6 +16,7 @@ x.addEventListener('click',()=>{
 })
 
 let hedden =document.getElementById('hedden')
+let z = hedden
 let lines = document.getElementsByClassName('lines')[0]
 let menu = document.getElementsByClassName('menu')[0]
 
@@ -23,7 +24,7 @@ hedden.addEventListener('click',function(){
   lines.style.marginTop = '30px'  
 })
 
-
+let line = document.querySelector('.line')
 
 hedden.addEventListener('click',function(){
     menu.style.visibility= 'visible';
@@ -39,7 +40,10 @@ hedden.addEventListener('click',function(){
     }
   })
 
+  
+
   document.getElementsByClassName('content')[0].addEventListener('click',()=>{
+    if(menu.style.visibility== 'visible'){
     menu.style.visibility= 'hidden';
     document.querySelectorAll('.line')[0].style.position= 'absolute';
     document.querySelectorAll('.line')[1].style.position= 'absolute';
@@ -47,6 +51,6 @@ hedden.addEventListener('click',function(){
     document.querySelectorAll('.line')[0].style.display = 'none'
     document.querySelectorAll('.line')[1].style.display = 'none'
     document.querySelectorAll('.line')[2].style.display = 'none'
-    // hedden.style.width = '0px'
     document.querySelector('#lines').style.width = '0px'
+    }
   })
