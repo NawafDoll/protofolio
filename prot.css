@@ -762,9 +762,9 @@ form  h2{
   
   .content1 a{
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     position: absolute;
-    transform: translate(75%, -37%);
+    transform: translate(80%, -37%);
   }
   
   .content1 a:nth-child(1) {
@@ -815,6 +815,6 @@ form  h2{
   }
   footer h2{
     color: white;
-    margin-left: -240px;
-    font-size: 25px;
+    margin-left: -180px;
+    font-size: 20px;
   }
