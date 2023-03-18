@@ -762,14 +762,14 @@ form  h2{
   
   .content1 a{
     color: #fff;
-    font-size: 3rem;
+    font-size: 4rem;
     position: absolute;
-    transform: translate(100%, -45%);
+    transform: translate(75%, -37%);
   }
   
   .content1 a:nth-child(1) {
     color: transparent;
-    -webkit-text-stroke: 0.6px #03a9f4;
+    -webkit-text-stroke: 0.1px #03a9f4;
   }
   
   .content1 a:nth-child(2) {
@@ -811,10 +811,10 @@ form  h2{
 
   footer{
     background-color: #252536;
-    align-items: center;
+    /* align-items: center; */
   }
   footer h2{
     color: white;
-    margin-left: -167px;
-    font-size: 26px;
+    margin-left: -240px;
+    font-size: 25px;
   }
