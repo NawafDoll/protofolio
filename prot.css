@@ -761,8 +761,8 @@ form  h2{
   }
   
   .content1 a{
-    color:blue;
-    font-size: 2.8rem;
+    color: #fff;
+    font-size: 2.7rem;
     position: absolute;
     transform: translate(87%, -37%);
   }
